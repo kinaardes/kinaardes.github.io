@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<title>Functions of MultiVariables</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h2{font-family: "Raleway", sans-serif; opacity: 100; z-index:1;}
+body, html {height: 100%}
+p {line-height: 2}
+.bgimg, .bgimg2 {
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.transbox {
+    margin: 50px;
+    background-color: #f0f0f5;
+    border: 0px solid black;
+    opacity: .6;
+    z-index:1;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+.well{
+    color: white;
+    opacity:1;
+}
+
+.bgimg2 {background-image: url("arch.jpg")}
+.bgimg {background-image: url("arch.jpg")}
+</style>
+<body>
+  
+
+<!-- Header / Home-->
+<header class="w3-display-container w3-wide bgimg w3-grayscale-min" id="home">
+  <div class="w3-display-middle w3-text-white w3-center">
+    <div class="well">
+         <h1 class="w3-jumbo">Functions of Several Variables</h1>
+    </div>
+    <h2>Use Functions of Several Variables to sketch the graphs, level curves, and level surfaces of mulit-dimensional figures</h2>
+    <h2><b>05.22.2017</b></h2>
+      </div>
+ </header>
+
+ 
+
+
+<!-- Navbar (sticky bottom) -->
+<div class="w3-bottom w3-hide-small">
+  <div class="w3-bar w3-white w3-center w3-padding w3-opacity-min w3-hover-opacity-off">
+    <a href="#home" style="width:16%" class="w3-bar-item w3-button">Home</a>
+    <a href="#us" style="width:16%" class="w3-bar-item w3-button">Concepts</a>
+    <a href="#wedding" style="width:16%" class="w3-bar-item w3-button">Practice Problems</a>
+    <a href="#rsvp" style="width:16%" class="w3-bar-item w3-button w3-hover-black">Closure</a>
+    <a href="#Extrap" style="width:16%" class="w3-bar-item w3-button w3-hover-black">Extra Practice Refrences</a>
+    <a href="#sources" style="width:16%" class="w3-bar-item w3-button w3-hover-black">Sources</a>
+  </div>
+</div>
+
+<!-- About / Concepts -->
+<div class="w3-container w3-padding-64 w3-pale-grayscale w3-grayscale-min" id="us">
+  <div class="w3-content">
+    <h1 class="w3-center w3-text-grey"><b>Concepts</b></h1>
+    <img class="w3-round w3-grayscale-min" src="Func.jpg" style="width:100%;margin:32px 0">
+    <h2><b><center>Definition of a Multivariable Function:</center></b></h2>
+    <p><i><center>A function of two variables is a rule that assigns a real number. f(x, y) to each pair of real numbers (x, y) in the domain of the function.</br>
+A function of two variables is a rule which defines a unique output, z = f(x, y), for every input pair of real numbers, (x, y), in a specified set of points D called the domain.
+</center></i>
+ <h2 class="w3-center w3-text-grey"><b>In the function: z= f(x,y)</b> <b>x & y are independent variables z is a dependent variable</b></h2>
+ <h2 class="w3-center w3-text-grey"><b>Unless otherwise specified you can assume that the domain is the set of all points for which the equation is defined.</b></h2>
+ <pre><center>
+   Example: 
+   The domain of the function:
+   f(x,y)= x^2 + y^2
+   can be assumed to be all real numbers.
+   
+   However the domain of:
+   f(x,y)= lnxy
+   is the set of all points (x,y) in the plane for which xy> 0. 
+   This consists of all points in the first and third quadrants.
+   </center></pre>
+   <h2 class="w3-center w3-text-grey">You can combine functions of several variables in the same ways as functions of single variables.<b></b></h2>
+   <pre><center>
+     (f+/-g)(x,y)=f(x,y)+/-g(x,y)
+     (fg)(x,y)=f(x,y)g(x,y)
+     (f/g)(x,y)= f(x,y)/g(x,y) 
+     </center></pre>
+      <h2 class="w3-center w3-text-grey">Level Curves<b></b></h2>
+      <pre><center>
+        The next topic that we should look at is that of level curves or contour curves.  
+        The level curves of the function  are two dimensional curves we get by setting , where k is any number.  
+        So the equations of the level curves are .   
+        Note that sometimes the equation will be in the form  and in these cases the equations of the level curves are .
+        </center></pre>
+        <h2 class="w3-center w3-text-grey">Describing Graphs of Multi-Variable Functions<b></b></h2>
+        <pre><center> 
+        Example :  Identify the level curves of f(x,y)=(x2+y2)1/2. Sketch a few of them.
+ 
+
+Re-Write:
+ f(x,y)=(x2+y2)1/2 as z=(x2+y2)1/2
+                                                              
+Square both sides: z2= x2+y2
+                                                               
+This function is a cone, which is given by the general formula for a cone: z2/c2=x2/b2+y2/b2So, 
+The function represents a cone, but only the upper have, since the square roots will only output positive numbers.
+Note that this was not required for this problem.  
+It was done for the practice of identifying the surface and this may come in handy down the road.
+ 
+Now on to the real problem.   T
+he level curves (or contour curves) for this surface are given by the equation are found by substituting: z=k. 
+In the case of our example this is,
+k=(x2+y2)1/2 ----->    k2= x2+y2 
+                                 
+where k is any number.  
+So, in this case, the level curves are circles of radius k with center at the origin.
+The graph is represented below.
+ </center></pre>
+       <center><img class="w3-round-large w3-grayscale-min" src=image008.jpg style="width:50%;margin:64px 0"></center>
+    </p><br>
+  </div>
+</div>
+<!-- Wedding information -->
+<div class="w3-container w3-padding-64 w3-white w3-grayscale-min w3-center" id="wedding">
+  <div class="w3-content">
+      <h1 class="w3-text-grey"><b>Practice Problems!</b></h1>
+    <div class="w3-center">
+        <h2> AP Calculus Hostetler Edwards Larson Eighth Edition</h2>
+       </div>
+     <pre><center>Page 892 #1,3, 5-12odd, 17-27odd </center></pre>
+</div>
+</div>
+
+<!-- RSVP section -->
+<div class="w3-container w3-padding-64 w3-pale-grey w3-center w3-wide" id="rsvp">
+  <h1>Closure</h1>
+  <p class="w3-large">Determine the Domain of:</br> f(x,y)= (x+y)^1/2</p>
+  <pre><center>
+    In this case we know that we can’t take the square root of a negative number so this means that we must require, 
+    that the domain: X + y is greater than 0.
+  </center></pre>
+  <p class="w3-xlarge">
+  
+  </p>
+</div>
+<div class="w3-container w3-padding-64 w3-pale-grey w3-center w3-wide" id="Extrap">
+  <h1>Extra Practice</h1>
+  <a href="https://www.khanacademy.org/math/multivariable-calculus/thinking-about-multivariable-function/introduction-to-multivariable-calculus/v/multivariable-functions">Khan Academy</a>
+  <a href="http://tutorial.math.lamar.edu/Classes/CalcIII/MultiVrbleFcns.aspx">Calculus Notes</a>
+  
+  
+  </p>
+</div>
+<div class="w3-container w3-padding-64 w3-pale-grey w3-center w3-wide" id="sources">
+  <h1>Sources</h1>
+  <pre><center>
+    Works Cited
+Calculus III - Functions of Several Variables. N.p., n.d. Web. 18 May 2017.
+"Khan Academy." Khan Academy. N.p., n.d. Web. 18 May 2017.
+Larson, Ron, Robert P. Hostetler, and Bruce H. Edwards. Calculus. Boston, MA: Houghton Mifflin, 2006. Print.
+ </center></pre>
+ 
+ <pre><center> 
+ Website by Kinaar Desai
+ Mr. CLifton's Calculus Class 
+ Period 1
+ 05.18.2017
+ </center></pre>
+  
+  
+  </p>
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+ 
+<div class="w3-hide-small" style="margin-bottom:32px"> </div>
+
+</body>
+</html>
